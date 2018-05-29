@@ -1,6 +1,8 @@
 chistributed: A Distributed Systems Simulator
 =============================================
 
+_This is a working copy of chistributed for Michal Badura, Michael Noronha, and Claude Richoux's 2018 final project_.
+
 Installing
 ----------
 
