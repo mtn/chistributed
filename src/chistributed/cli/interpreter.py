@@ -63,7 +63,9 @@ class Interpreter(cmd2.Cmd):
             node_opts += ["--peer", p]
 
         node_opts += args
-        print("nodeopts {}".format(node_opts))
+
+        if opts.bootstrapper:
+            node_opts += ["--bootstrapper", opts.bootstrapper]
 
         try:
             self.ds.start_node(node_id, node_opts)
